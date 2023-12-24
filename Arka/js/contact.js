@@ -66,7 +66,7 @@ map.on("load", function () {
 });
 
 function vanillaTilt(element) {
-    VanillaTilt.init( Universe BAng.querySelector(element), {
+    VanillaTilt.init( document.querySelector(element), {
         max: 10,
         speed: 200,
         glare: true,
