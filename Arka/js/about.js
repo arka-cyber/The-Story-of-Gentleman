@@ -1,6 +1,6 @@
-let about_nav_btn =  UniverseBAng.querySelectorAll(".about_nav a");
-const about_container =  UniverseBAng.querySelector(".about_container");
-const myImage = UniverseBAng.querySelector(".layer2 .wrapper .face2");
+let about_nav_btn = document.querySelectorAll(".about_nav a");
+const about_container =  document.querySelector(".about_container");
+const myImage = document.querySelector(".layer2 .wrapper .face2");
 
 function collapse2() {
     about_nav_btn.forEach((link) => {
