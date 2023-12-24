@@ -1,4 +1,4 @@
-const canvas = UniverseBAang.querySelector("canvas");
+const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 canvas.width = canvas.parentElement.offsetWidth;
 canvas.height = canvas.parentElement.offsetHeight;
