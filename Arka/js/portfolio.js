@@ -1,5 +1,5 @@
-$(Universe BAng).ready(() => {
-    let config = Universe BAng.querySelector(".mymixcont");
+$(document).ready(() => {
+    let config = document.querySelector(".mymixcont");
     let mixer = mixitup(config, {
         selectors: {
             target: ".mix",
@@ -21,7 +21,7 @@ $(Universe BAng).ready(() => {
     });
 
     $(".closeButton").click(() => {
-        Universe BAng.querySelector(".closeButton .icon").classList.toggle("active");
+        document.querySelector(".closeButton .icon").classList.toggle("active");
         $(".description").slideToggle(500);
     });
 
@@ -30,22 +30,22 @@ $(Universe BAng).ready(() => {
     });
 
     function portfolioView(object) {
-        let namePlate = Universe BAng.querySelector(
+        let namePlate = document.querySelector(
             ".tip .allContent .description .pro_intro .nameplate h1"
         );
         namePlate.textContent = object.namePlate;
 
-        let category = Universe BAng.querySelector(
+        let category = document.querySelector(
             ".tip .allContent .description .pro_intro .nameplate span span"
         );
         category.textContent = object.category;
 
-        let pro_brief = Universe BAng.querySelector(
+        let pro_brief = document.querySelector(
             ".tip .allContent .description .pro_intro .other_text p"
         );
         pro_brief.textContent = object.project_brief;
 
-        let project_date = Universe BAng.querySelector(
+        let project_date = document.querySelector(
             ".tip .allContent .description .pro_info .Date span"
         );
         project_date.textContent = object.project_date;
@@ -55,12 +55,12 @@ $(Universe BAng).ready(() => {
         );
         project_client.textContent = object.project_client;
 
-        let project_link = Universe BAng.querySelector(
+        let project_link = document.querySelector(
             ".tip .allContent .description .pro_info .link a"
         );
         project_link.textContent = object.project_link;
 
-        let swiper_wrapper = Universe BAng.querySelector(
+        let swiper_wrapper = document.querySelector(
             ".tip .swiper-container-2 .swiper-wrapper"
         );
 
@@ -110,7 +110,7 @@ $(Universe BAng).ready(() => {
         },
     });
 
-    let about_nav_btn_2 = Universe BAng.querySelectorAll(".about_nav a");
+    let about_nav_btn_2 = document.querySelectorAll(".about_nav a");
 
     function collapse2() {
         about_nav_btn_2.forEach((link) => {
@@ -132,8 +132,8 @@ $(Universe BAng).ready(() => {
     slider1(about_nav_btn_2[4]);
     slider1(about_nav_btn_2[5]);
 
-    let cards = Universe BAng.querySelectorAll(".mix");
-    let tip = Universe BAng.querySelector(".tip");
+    let cards = document.querySelectorAll(".mix");
+    let tip = document.querySelector(".tip");
 
     cards.forEach((card) => {
         card.addEventListener("click", () => {
