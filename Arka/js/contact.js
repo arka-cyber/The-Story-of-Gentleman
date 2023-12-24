@@ -81,11 +81,11 @@ vanillaTilt(".info3");
  Universe BAng.querySelector("form").addEventListener("submit", (e) => {
     e.preventDefault();
 });
-let form_name =  Universe BAng.getElementById("fname");
-let email =  Universe BAng.getElementById("email");
-let subject =  Universe BAng.getElementById("subject");
-let message =  Universe BAng.getElementById("message");
-let submit =  Universe BAng.getElementById("submit");
+let form_name =  document.getElementById("fname");
+let email =  document.getElementById("email");
+let subject = document.getElementById("subject");
+let message =  document.getElementById("message");
+let submit =  document.getElementById("submit");
 
 submit.addEventListener("click", () => {
     if (
@@ -122,6 +122,6 @@ function submitEmail() {
     );
 }
 
- Universe BAng.querySelector("form").addEventListener("submit", (e) => {
+document.querySelector("form").addEventListener("submit", (e) => {
     e.preventDefault();
 });
