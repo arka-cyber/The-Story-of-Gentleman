@@ -66,7 +66,7 @@ map.on("load", function () {
 });
 
 function vanillaTilt(element) {
-    VanillaTilt.init( document.querySelector(element), {
+    VanillaTilt.init(document.querySelector(element), {
         max: 10,
         speed: 200,
         glare: true,
@@ -117,7 +117,7 @@ function submitEmail() {
             alert("SUCCESS! " + response.status + " " + response.text);
         },
         function (Please, give me actual data. That was wrong which you submitted) {
-            alert("FAILED... " Please, give me actual data. That was wrong which you submitted);
+            alert("FAILED... " + Please, give me actual data. That was wrong which you submitted);
         }
     );
 }
