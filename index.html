@@ -31,48 +31,38 @@
             type="image/x-icon"
         />
         <style>
-    /* Style the Facebook icon */
+    /* Style the icons */
+    .icon {
+      display: inline-block;
+      width: 80px; /* Adjust the width as needed */
+      height: 80px; /* Adjust the height as needed */
+      margin-right: 45px; /* Adjust the margin between icons as needed */
+      text-indent: -9999px; /* Hide the text */
+    }
+
+    /* Add hover effect if desired */
+    .icon:hover {
+      opacity: 0.8;
+    }
+
+    /* Customize the style for each icon */
     .facebook-icon {
-      display: inline-block;
-      background: url('ji.jpeg') no-repeat;
-      width: 100px; /* Adjust the width as needed */
-      height: 100px; /* Adjust the height as needed */
-      text-indent: -9999px; /* Hide the text */
+      background: url('your_facebook_icon.png') no-repeat;
     }
 
-    /* Add hover effect if desired */
-    .facebook-icon:hover {
-      opacity: 0.8;
-    }
-  </style>
-         <style>
-    /* Style the Twitter icon */
     .twitter-icon {
-      display: inline-block;
       background: url('twi.png') no-repeat;
-      width: 100px; /* Adjust the width as needed */
-      height: 100px; /* Adjust the height as needed */
-      text-indent: -9999px; /* Hide the text */
     }
 
-    /* Add hover effect if desired */
-    .twitter-icon:hover {
-      opacity: 0.8;
-    }
-  </style>
-         <style>
-    /* Style the GitHub icon */
     .github-icon {
-      display: inline-block;
       background: url('your_github_icon.png') no-repeat;
-      width: 100px; /* Adjust the width as needed */
-      height: 100px; /* Adjust the height as needed */
-      text-indent: -9999px; /* Hide the text */
     }
 
-    /* Add hover effect if desired */
-    .github-icon:hover {
-      opacity: 0.8;
+    .linkedin-icon {
+      background: url('linkedin.png') no-repeat;
+    }
+    .instagram-icon {
+        background: url('instagram.png') no-repeat;
     }
   </style>
     </head>
@@ -136,47 +126,29 @@
                     <div class="content-for-home">
                         <div class="img-container"></div>
                         <h1 align="center">Debashis Mojumder Arka</h1>
-                        <div class="social-icons" >
-                            <!-- Link to my Facebook profile -->
-                            <a href="https://www.facebook.com/Joban2007"target="self"  >
-                                  <i class="fab fa-facebook fa-5x"></i>
-                                <span class="facebook-icon">Facebook</span>
-                           </a></div>
-                              
-                          
-                                <div class="social-icons" >
-                                    <!-- Link to my Twitter profile -->
-                                    <a href=" "https://twitter.com/sighel_arka" target="_self" >
-                                         <span class="twitter-icon">Twitter</span>
-                                          </a></div>
-                                 <div class="social-icons" >
-                                       <!-- Link to my GitHub profile -->
-                                     <a href="https://github.com/arka-cyber/" target="_self">
-                                      <i class="fab fa-github"></i>
-                                 <span class="github-icon">GitHub</span>
-                                </a></div>
-                                    <div class="social-icons" >
-                                        <!-- Link to my LinkedIn profile -->
-                            <a href="https://www.linkedin.com/in/debashis-mojumder-arka-2b4054285/" target="_self">
-                              <span class="linkedin-icon">LinkedIn</span>
-                                </a></div>
-                                <div class="s-name">Linkedin</div>
-                         
-                            <a href="https://www.instagram.com/jay_mohadev_/">
-                            <div class="s-icon">
-                                <a href="#">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <div class="s-name">Instagram</div>
-                            </div></a>
-                            
-                            <div class="s-icon">
-                                <a href="#">
-                                    <i class="fas fa-envelope"></i>
-                                </a>
-                                <div class="s-name">Email</div>
-                            </div>
-                        </div>
+                       <!-- Facebook link with icon -->
+  <div>
+    <a href="https://www.facebook.com/Joban2007"target="self" class="icon facebook-icon">Facebook</a>
+  </div>
+
+  <!-- Twitter link with icon -->
+  <div>
+    <a href="https://twitter.com/sighel_arka" target="_self" class="icon twitter-icon">Twitter</a>
+  </div>
+
+  <!-- GitHub link with icon -->
+  <div>
+    <a href="https://twitter.com/sighel_arka" target="_self" class="icon github-icon">GitHub</a>
+  </div>
+
+  <!-- LinkedIn link with icon -->
+  <div>
+    <a href="https://www.linkedin.com/in/debashis-mojumder-arka-2b4054285/" target="_self" class="icon linkedin-icon">LinkedIn</a>
+  </div>
+  <!-- Instagram link with icon -->
+  <div>
+    <a href="https://www.instagram.com/jay_mohadev_/" target="_self" class="icon instagram-icon">Instagram</a>
+  </div>
 
                         <div class="side-nav">
                             <button
