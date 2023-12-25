@@ -30,6 +30,21 @@
             href="resources/img/favicon.ico"
             type="image/x-icon"
         />
+        <style>
+    /* Style the Facebook icon */
+    .facebook-icon {
+      display: inline-block;
+      background: url('your_facebook_icon.png') no-repeat;
+      width: 100px; /* Adjust the width as needed */
+      height: 100px; /* Adjust the height as needed */
+      text-indent: -9999px; /* Hide the text */
+    }
+
+    /* Add hover effect if desired */
+    .facebook-icon:hover {
+      opacity: 0.8;
+    }
+  </style>
     </head>
     <body onload="loaded()">
         <div class="loader">
@@ -91,11 +106,12 @@
                     <div class="content-for-home">
                         <div class="img-container"></div>
                         <h1 align="center">Debashis Mojumder Arka</h1>
-                        <div class="social-icons" width="90" height="90" >
-                            <a href="https://www.facebook.com/Joban2007"target="self" >
-                                
-                                
-                                    <i class="fab fa-facebook" ></i></a>
+                        <div class="social-icons" >
+                            <!-- Link to your Facebook profile -->
+                            <a href="https://www.facebook.com/Joban2007"target="self" rel="noopener noreferrer" >
+                                 <i class="fab fa-facebook" ></i>
+                                <span class="facebook-icon">Facebook</span>
+                           </a>
                               
                           
                                
