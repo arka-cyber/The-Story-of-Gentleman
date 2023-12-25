@@ -78,7 +78,7 @@ vanillaTilt(".info1");
 vanillaTilt(".info2");
 vanillaTilt(".info3");
 
- Universe BAng.querySelector("form").addEventListener("submit", (e) => {
+ document.querySelector("form").addEventListener("submit", (e) => {
     e.preventDefault();
 });
 let form_name =  document.getElementById("fname");
@@ -117,7 +117,7 @@ function submitEmail() {
             alert("SUCCESS! " + response.status + " " + response.text);
         },
         function (Please, give me actual data. That was wrong which you submitted) {
-            alert("FAILED... " +Please, give me actual data. That was wrong which you submitted);
+            alert("FAILED... " Please, give me actual data. That was wrong which you submitted);
         }
     );
 }
