@@ -116,7 +116,7 @@ function submitEmail() {
         function (response) {
             alert("SUCCESS! " + response.status + " " + response.text);
         },
-        function (Please, give me actual data. That was wrong which you submitted) {
+        function ( Please, give me actual data. That was wrong which you submitted) {
             alert("FAILED... " + Please, give me actual data. That was wrong which you submitted);
         }
     );
