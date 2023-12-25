@@ -94,7 +94,7 @@ submit.addEventListener("click", () => {
         subject.value == "" &&
         message.value == ""
     ) {
-        alert("All fields are required");
+        alert("All fields are required.So, correctly fill up this form.");
         return;
     } else {
         submitEmail();
@@ -106,7 +106,7 @@ function submitEmail() {
         method: "POST",
         from_name: form_name.value,
         from_email: email.value,
-        to_name: "Shuvro!",
+        to_name: "Arka!",
         subject: subject.value,
         message: message.value,
     };
