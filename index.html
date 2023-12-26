@@ -27,15 +27,30 @@
         <link rel="stylesheet" href="resources/css/style.css" />
         <link
             rel="shortcut icon"
-            href="resources/img/favicon.ico"
+            href="resources/img/favicon.ico.ico"
             type="image/x-icon"
         />
         <style>
+            /* Style the container for the links */
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center items horizontally */
+    }
+
+    /* Style each link item */
+    .link-item {
+      margin: 10px 0; /* Adjust spacing between items */
+      text-align: center;
+    }
+
     /* Style the icons */
     .icon {
       display: inline-block;
       width: 100px; /* Adjust the width as needed */
       height: 100px; /* Adjust the height as needed */
+      margin-right: 10px; /* Adjust spacing between icon and text */
+      background-repeat: no-repeat;
       text-indent: -9999px; /* Hide the text */
     }
 
@@ -46,7 +61,7 @@
 
     /* Customize the style for each icon */
     .facebook-icon {
-      background: url('your_facebook_icon.png') no-repeat;
+      background: url('face.png') no-repeat;
     }
 
     .twitter-icon {
@@ -54,7 +69,7 @@
     }
 
     .github-icon {
-      background: url('your_github_icon.png') no-repeat;
+      background: url('download(1).png') no-repeat;
     }
 
     .linkedin-icon {
