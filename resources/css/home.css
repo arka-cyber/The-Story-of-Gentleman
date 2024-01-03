@@ -8,7 +8,7 @@
     background-color: #0d1117;
     z-index: 2;
 }
-.loader, .loader span {
+.conteiner, .conteiner span {
   width: 10em;
   height: 10em;
   border: 0.25em solid white;
@@ -17,7 +17,7 @@
   position: absolute;
   mix-blend-mode: screen;
  }
- .loader {
+ .conteiner {
   background-color: gold;
   animation: rotating 2s linear infinite;
  }
@@ -26,7 +26,7 @@
     transform: rotate(1turn);
   }
  }
- .loader span {
+ .conteiner span {
   animation: de-rotating 4s Linear infinite;
  }
  @keyframes de-rotating {
@@ -37,23 +37,23 @@
     transform: rotate(-180deg) scale(1.2);
    }
  }
-  .loader span:nth-child(1) {
+  .conteiner span:nth-child(1) {
     top: 5em;
     left: 5em;
     background-color: dodgerblue;
 
  }
- .loader span:nth-child(2) {
+ .conteiner span:nth-child(2) {
   top: -5em;
   left: 5em;
   background-color: hotpink;
  }
- .loader span:nth-child(3) {
+ .conteiner span:nth-child(3) {
   top: 5em;
   left: -5em;
   background-color: mediumpurple;
  }
-  .loader span:nth-child(4) {
+  .conteiner span:nth-child(4) {
     top: -5em;
     left: -5em;
     background-color: limegreen ;
