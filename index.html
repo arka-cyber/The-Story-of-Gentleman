@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="resources/css/services.css">
         <link rel="stylesheet" href="resources/css/portfolio.css" />
         <link rel="stylesheet" href="resources/css/blog.css" />
+        <link rel="stylesheet" href="resources/css/cu.css" />
         <link rel="stylesheet" href="resources/css/contact.css" />
         <link href="resources/mapbox-gl/mapbox-gl.css" rel="stylesheet" />
         <link rel="stylesheet" href="resources/css/style.css" />
@@ -178,6 +179,10 @@
                             <button onclick="blog()">
                                 <span class="w">W</span>
                                 <span class="tooltip"> what others say? </span>
+                            </button>
+                            <button onclick="games()">
+                                <span class="w">W</span>
+                                <span class="tooltip"> Enjoy with me. </span>
                             </button>
                             <button onclick="contact(); animate5.play()">
                                 <span class="w">W</span>
@@ -1046,6 +1051,115 @@
                     </div>
                 </div>
             </div>
+                <div class="container" >
+        <button ><a href="resources/tic.html"><pre>
+            <span>Tic-Tac-Glow</span></pre></a>
+        </button>
+        
+        <button><a href="resources/index.html" >
+            <span>Rubik's Cube</span>
+        </a> 
+            
+        </button>
+       </div>
+            
+              
+        
+    
+
+        
+        <div class="content">
+            <div class="bubbles">
+                <span style="--i:22"></span>
+                <span style="--i:22"></span>
+                <span style="--i:23"></span>
+                <span style="--i:28"></span>
+                <span style="--i:12"></span>
+                <span style="--i:48"></span>
+                <span style="--i:52"></span>
+                <span style="--i:42"></span>
+                <span style="--i:43"></span>
+                <span style="--i:48"></span>
+                <span style="--i:32"></span>
+                <span style="--i:38"></span>
+                <span style="--i:32"></span>
+                <span style="--i:32"></span>
+                <span style="--i:11"></span>
+                <span style="--i:31"></span>
+                <span style="--i:32"></span>
+                <span style="--i:35"></span>
+                <span style="--i:30"></span>
+                <span style="--i:32"></span>
+                <span style="--i:33"></span>
+                <span style="--i:32"></span>
+                <span style="--i:12"></span>
+                <span style="--i:13"></span>
+                <span style="--i:14"></span>
+                <span style="--i:15"></span>
+                <span style="--i:16"></span>
+                <span style="--i:17"></span>
+                <span style="--i:11"></span>
+                <span style="--i:21"></span>
+                <span style="--i:23"></span>
+                <span style="--i:12"></span>
+                <span style="--i:11"></span>
+                <span style="--i:16"></span>
+                <span style="--i:19"></span>
+                <span style="--i:23"></span>
+                <span style="--i:26"></span>
+                <span style="--i:28"></span>
+                <span style="--i:29"></span>
+                <span style="--i:25"></span>
+                <span style="--i:17"></span>
+                <span style="--i:11"></span>
+                <span style="--i:31"></span>
+                <span style="--i:32"></span>
+                <span style="--i:33"></span>
+                <span style="--i:12"></span>
+                <span style="--i:13"></span>
+                <span style="--i:14"></span>
+                <span style="--i:15"></span>
+                <span style="--i:16"></span>
+                <span style="--i:17"></span>
+                <span style="--i:11"></span>
+                <span style="--i:21"></span>
+                <span style="--i:23"></span>
+                <span style="--i:12"></span>
+                <span style="--i:11"></span>
+                <span style="--i:16"></span>
+                <span style="--i:19"></span>
+                <span style="--i:23"></span>
+                <span style="--i:26"></span>
+                <span style="--i:28"></span>
+                <span style="--i:29"></span>
+                <span style="--i:25"></span>
+                <span style="--i:17"></span>
+                <span style="--i:32"></span>
+                <span style="--i:32"></span>
+                <span style="--i:32"></span>
+                <span style="--i:52"></span>
+                <span style="--i:54"></span>
+            </div>
+        </div>
+       <audio id="backgroundAudio" autoplay  loop  >
+        <source src="C:\Users\Hamim it\OneDrive\Documents\abc.mp3"  type="audio/mp3">
+       </audio>
+       <script >
+        document.addEventListener('DOMContentLoaded', function () {
+            var audio = document.getElementById('backgroundAudio');
+
+            // Try to play the audio after a user gesture
+            document.addEventListener('click', function () {
+                if (audio.paused) {
+                    audio.play().then(function () {
+                        // Autoplay succeeded
+                    }).catch(function (error) {
+                        // Autoplay failed, handle error
+                    });
+                }
+            });
+        });
+    </script>
             <div class="layer layer6">
                 <div class="contact_us">
                     <div id="map"></div>
