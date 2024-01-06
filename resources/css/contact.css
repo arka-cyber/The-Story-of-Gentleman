@@ -1,4 +1,4 @@
-.layer6 {
+.layer7 {
     background: url("../img/pexels-pixabay-262488.jpg"), #0d1117;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,7 +7,7 @@
     filter: invert(1);
 }
 
-.layer6 .contact_us {
+.layer7 .contact_us {
     position: relative;
     display: flex;
     justify-content: space-around;
